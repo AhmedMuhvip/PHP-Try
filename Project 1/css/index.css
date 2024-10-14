@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h3{
+  margin-block: 1em;
+}
+input{
+  display: block;
+  margin-block: 1em;
+}
+
+form{
+  /* text-align: center; */
+  /* align-items: center; */
+  align-content: center;
+}
