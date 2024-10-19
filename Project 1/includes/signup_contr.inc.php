@@ -24,10 +24,20 @@ function is_email_invalid(string $email): bool
 }
 
 
-function is_username_taken(string $username): bool
+function is_username_taken(object $pdo, string $username): bool
 {
 
-  if () {
+  if (get_username($pdo,  $username)) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+function is_email_registered(object $pdo, string $email): bool
+{
+
+  if (get_email($pdo, $email)) {
     return true;
   } else {
     return false;

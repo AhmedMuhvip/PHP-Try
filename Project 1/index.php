@@ -28,6 +28,10 @@
     <input type="text" name="email" placeholder="E-mail">
     <button>SignUp</button>
   </form>
+
+  <?php
+  check_signup_errors();
+  ?>
 </body>
 
 </html>
