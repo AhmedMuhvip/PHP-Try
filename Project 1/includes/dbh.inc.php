@@ -2,7 +2,7 @@
 
 $host = 'localhost';
 $dbname = 'dbtur';
-$dbusername = 'Ahmed';
+$dbusername = 'ahmed';
 $dbpassword = '1246';
 
 try {
